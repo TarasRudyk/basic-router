@@ -1,0 +1,11 @@
+<template name="Home">
+	<h1>Welcome on home page</h1>
+	<ul>
+		{{#each news}}
+			<li>
+				<small>{{dateTime}}:</small>
+				{{text}}
+			</li>
+		{{/each}}
+	</ul>
+</template>
